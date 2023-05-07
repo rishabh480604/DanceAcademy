@@ -1,0 +1,83 @@
+body{
+    /* background-image: URL('../static/background.png'); */
+    /* opacity: 0.4; */
+    background: rgb(35,37,122);
+background: linear-gradient(0deg, rgba(35,37,122,1) 0%, rgba(188,45,253,1) 100%);
+}
+#logo{
+    justify-content: center;
+    margin-left: 0px;
+}
+ul{
+    display: flex;
+    /* background-color: rgb(85, 172, 22); */
+}
+li{
+    margin: auto;
+    list-style: none;
+
+   
+}
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+}
+#logo img{
+    width: 20px;
+}
+
+.top{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    /* background-color: darkslateblue; */
+    background-image: url(../static/index_top.jpg);
+    text-align: center;
+    color: white;
+}
+/* .mission{
+    height: 40%;
+    width:100%;
+    text-align: center;
+    border: 2px solid red;
+
+} */
+#mission{
+    
+    /* border: 5px dotted grey; */
+    text-align: center;
+    
+    
+}
+.card h3{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    min-height: 200px;
+    margin: 1%;
+    font-family: sans-serif;
+    text-justify: auto;
+}
+.card img{
+    max-height: fit-content;
+    height: 180px;
+    
+    width: 160px;
+}
+.sponser{
+    height: 40%;
+    width:100%;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+#sponser img{
+    width: 18%;
+}

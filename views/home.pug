@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+block style
+    style 
+        include ../static/index.css
+block content 
+    //- nav
+    //-     ul
+    //-         .div 
+    //-             #logo 
+    //-                 img(src="../static/logo.png", alt="alt")
+    //-                 | DA
+    //-         <li><a href='#'>Home</a></li>
+    //-         <li><a href='#'>Academy</a></li>
+    //-         <li><a href='#'>Events</a></li>
+    //-         <li><a href='#'>Supports</a></li>
+        
+    
+    div.top 
+        h1 Welcome to Dance Academy 
+        h1 Eat Sleep Dance Repeat
+            
+        
+
+    section#mission
+        h1 Our Mission
+        .card 
+            h3 Solo Dance 
+            img(src="../static/1.png", alt="img1")
+        .card   
+            h3 Duo Dance 
+            img(src="../static/2.png", alt="img2")
+        .card 
+            h3 Group Dance
+            img(src="../static/3.png", alt="img3")
+
+    section#sponser
+        h1 Our Sponsers
+        #sponser 
+            img(src="../static/s1.png", alt="s1")
+            img(src="../static/s2.png", alt="s2")
+            img(src="../static/s3.png", alt="s3")
+            img(src="../static/s4.png", alt="s4")
+            img(src="../static/s5.png", alt="s5")

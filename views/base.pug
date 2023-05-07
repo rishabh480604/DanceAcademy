@@ -1,0 +1,31 @@
+//- base.pug\
+//block or extends keyword for inheritance property
+doctype html
+html
+  head
+    title Dance Academy
+    //if needed add any script
+    block scripts 
+    block style 
+      style 
+        include ../static/index.css
+  body
+    block bar 
+        nav
+          ul
+            .div 
+                #logo 
+                    img(src="../static/logo.png", alt="alt")
+                    | DA
+            <li><a href='/home'>Home</a></li>
+            <li><a href='/academy'>Academy</a></li>
+            <li><a href='/events'>Events</a></li>
+            <li><a href='/support'>Supports</a></li>
+
+    block content
+    block footer#footer
+        .container
+            p
+            | &copy; 2023 Dance Academy |
+            i.fa.fa-value(aria-hidden='true') &nbsp;
+            a(href='https://github.com/rishabh480604') Develop by Ris

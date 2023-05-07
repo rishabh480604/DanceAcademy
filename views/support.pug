@@ -1,0 +1,17 @@
+extends base.pug
+block scripts
+block style 
+    style 
+        include ../static/index.css
+        include ../static/support.css
+
+block content
+    h1 Contact US
+    form(action="/support" method="post" class='form')
+        input(type="text", name="name",class='myinput' placeholder='Enter your name')
+        input(type="email", name="mail",class='myinput',placeholder='Enter your email id')
+        input(type="number", name="phone" class='myinput',placeholder='Enter your phone no')
+        input(type="text", name="address" class='desc',placeholder='Enter your address')
+        input(type="text", name="suggestion" class='desc',placeholder='Enter your suggestion')
+        button.btn.btn-primary(type='submit') Submit
+        
